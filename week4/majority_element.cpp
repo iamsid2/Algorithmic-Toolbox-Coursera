@@ -7,7 +7,9 @@ using namespace std;
 int BSearch(int a[], int low, int high, int x)
 {
     if(low > high)
+    {
         return -1;
+    }
     int middle = (high+low)/2;
     if(a[middle] == x)
     {
