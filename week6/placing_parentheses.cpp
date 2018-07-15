@@ -3,10 +3,7 @@
 #include <string>
 #include <vector>
 
-using std::vector;
-using std::string;
-using std::max;
-using std::min;
+using namespace std;
 
 long long eval(long long a, long long b, char op)
 {
@@ -36,6 +33,6 @@ long long get_maximum_value(const string &exp)
 int main()
 {
   string s;
-  std::cin >> s;
-  std::cout << get_maximum_value(s) << '\n';
+  cin >> s;
+  cout << get_maximum_value(s) << '\n';
 }
