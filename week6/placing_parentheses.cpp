@@ -8,24 +8,33 @@ using std::string;
 using std::max;
 using std::min;
 
-long long eval(long long a, long long b, char op) {
-  if (op == '*') {
+long long eval(long long a, long long b, char op)
+{
+  if (op == '*')
+  {
     return a * b;
-  } else if (op == '+') {
+  }
+  else if (op == '+')
+  {
     return a + b;
-  } else if (op == '-') {
+  }
+  else if (op == '-')
+  {
     return a - b;
-  } else {
+  }
+  else {
     assert(0);
   }
 }
 
-long long get_maximum_value(const string &exp) {
+long long get_maximum_value(const string &exp)
+{
   //write your code here
   return 0;
 }
 
-int main() {
+int main()
+{
   string s;
   std::cin >> s;
   std::cout << get_maximum_value(s) << '\n';
